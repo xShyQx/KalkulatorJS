@@ -1,17 +1,24 @@
 .calc {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 30px);
+    grid-template-rows: repeat(6, 1fr);
     grid-template-areas: 
         "input input input input"
         "oper oper oper oper"
-        "cos cos cos cos"
-        "cos cos cos cos"
-        "cos cos cos cos";
+        "num num num result"
+        "num num num result"
+        "num num num result"
+        "num num num result";
     background-color: gray;
-    margin: 20px 200px;
+    margin: 50px auto;
+    width: 400px;
+    height: 500px;
 }
 
 input {
     grid-area: input;
+}
+
+.result {
+    grid-area: result;
 }
