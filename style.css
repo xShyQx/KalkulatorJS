@@ -1,5 +1,5 @@
 .container {
-    background-color: gray;
+    background-color: rgb(176, 176, 176);
     margin: 50px auto;
     position: relative;
     width: 400px;
@@ -28,8 +28,16 @@
 
 input {
     grid-area: input;
+    font-size: 30px;
+    text-align: right;
+}
+
+.oper {
+    background-color:rgb(230, 230, 230);
 }
 
 .result {
     grid-area: result;
+    background-color: rgb(151, 151, 151);
+    color: white;
 }
