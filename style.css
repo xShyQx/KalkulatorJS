@@ -2,6 +2,16 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 30px);
+    grid-template-areas: 
+        "input input input input"
+        "oper oper oper oper"
+        "cos cos cos cos"
+        "cos cos cos cos"
+        "cos cos cos cos";
     background-color: gray;
-    margin: 20 auto;
+    margin: 20px 200px;
+}
+
+input {
+    grid-area: input;
 }
