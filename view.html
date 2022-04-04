@@ -13,9 +13,9 @@
         <div class="calc">
             <input type="number">
             <button onclick="oper('+')" class="oper">+</button>
-            <button class="oper">-</button>
-            <button class="oper">*</button>
-            <button class="oper">/</button>
+            <button onclick="oper('-')" class="oper">-</button>
+            <button onclick="oper('*')" class="oper">*</button>
+            <button onclick="oper('/')" class="oper">/</button>
             <button onclick="add(1)" class="num">1</button>
             <button onclick="add(2)" class="num">2</button>
             <button onclick="add(3)" class="num">3</button>
@@ -26,7 +26,7 @@
             <button onclick="add(8)" class="num">8</button>
             <button onclick="add(9)" class="num">9</button>
             <button onclick="add(0)" class="num">0</button>
-            <button class="num">.</button>
+            <button class="num">,</button>
             <button onclick="nclear()" class="num">C</button>
             <button onclick="answer()" class="result">=</button>
         </div>
