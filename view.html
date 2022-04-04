@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="calc">
-            <input type="number">
+            <input type="number" placeholder="0">
             <button onclick="oper('+')" class="oper">+</button>
             <button onclick="oper('-')" class="oper">-</button>
             <button onclick="oper('*')" class="oper">*</button>
@@ -26,7 +26,7 @@
             <button onclick="add(8)" class="num">8</button>
             <button onclick="add(9)" class="num">9</button>
             <button onclick="add(0)" class="num">0</button>
-            <button class="num">,</button>
+            <button onclick="changeFloat()" class="num">,</button>
             <button onclick="nclear()" class="num">C</button>
             <button onclick="answer()" class="result">=</button>
         </div>

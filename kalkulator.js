@@ -53,6 +53,7 @@ function ans(x) {
 function answer() {
     console.log(eq);
     input.setAttribute("value", ans(eq));
+    console.log(input);
     newNum = true;
 }
 
